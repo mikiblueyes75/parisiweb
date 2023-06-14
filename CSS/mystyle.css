@@ -1,0 +1,103 @@
+
+body{
+    background-color: rgb(245, 255, 250);
+
+}
+h2 {
+    color: crimson;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50;
+}
+
+.box-text-orange{
+    background-color: orangered;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: justify;
+    border: 2px solid blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* #para1 {
+    color: darkblue;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+} */
+
+.box-text-blue {
+    color: white;
+    text-align: justify;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(25, 0, 248);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+
+}
+
+/* #para2 {
+    color: white;
+    text-align: justify;
+    background-color: rgb(25, 0, 248);
+    font-size: large;
+} */
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    color: orange;
+    font-size: 200%;
+    display: flex;
+    margin: 0 10px;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link1:link{
+    color: orangered;
+    text-decoration: none;
+}
+.link1:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: underline;
+}
+.img1{
+    border: 1px solid red;
+    margin: 10px;
+        
+}
+
+.img2{
+    border: 1px solid gray;
+    margin: 10px;
+    }
+
+.sitoParisi{
+       margin-left: 100px;
+       
+    }
+
+.Htmlprva{
+        margin-left: 200px;
+    }
+
+.butt1:link, .butt1:visited{
+    text-decoration: none;
+    color: blue;
+    background-color: lightgray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.butt1:hover, .butt1:active{
+    background-color: darkgray;
+}
